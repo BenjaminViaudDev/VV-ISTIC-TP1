@@ -63,5 +63,9 @@ Ces expériences pourraient être menées dans d'autres organisations en adaptan
 
 ### 4) WebAssembly
 
+#### expliquez quels sont les principaux avantages d'une spécification formelle pour WebAssembly ?
+
+#### À votre avis, cela signifie-t-il que les implémentations de WebAssembly ne devraient pas être testées ?
+
 ### 5) Isabelle
 
