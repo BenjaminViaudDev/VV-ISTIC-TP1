@@ -64,8 +64,10 @@ Ces expériences pourraient être menées dans d'autres organisations en adaptan
 ### 4) WebAssembly
 
 #### expliquez quels sont les principaux avantages d'une spécification formelle pour WebAssembly ?
+    L'utilisation d'une spécification formelle pour WebAssembly offre plusieurs avantages, notamment la possibilité d'établir une base solide pour son évolution. Cela permet également de garantir de manière mathématique l'absence de bugs dans les fonctionnalités implémentées, assurant ainsi une plus grande sécurité.
 
 #### À votre avis, cela signifie-t-il que les implémentations de WebAssembly ne devraient pas être testées ?
+    Bien que WebAssembly bénéficie d'une spécification formelle, les implémentations doivent tout de même être testées. En effet, en cas de modifications apportées au code, il est essentiel de s'assurer qu'aucune erreur n'a été introduite par inadvertance.
 
 ### 5) Isabelle
 
