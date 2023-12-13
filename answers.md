@@ -71,3 +71,19 @@ Ces expériences pourraient être menées dans d'autres organisations en adaptan
 
 ### 5) Isabelle
 
+Principaux bénéfices de la "mécanisation de la spécification" :
+
+- **Vérification formelle :** La spécification est automatisée à l'aide d'Isabelle, ce qui permet une validation formelle du langage.
+  
+- **Interpréteur et Vérificateur de Type Vérifiés :** Un interpréteur et un vérificateur de type validés ont été développés, renforçant ainsi la fiabilité de l'implémentation par rapport à la spécification.
+
+- **Preuve de Cohérence du Système de Types :** La spécification mécanisée intègre une démonstration formelle de la cohérence du système de types de WebAssembly.
+
+- **Amélioration de la spécification formelle :** La mécanisation a révélé des lacunes dans la spécification officielle, influençant son évolution. Des ajustements ont été apportés à la spécification officielle pour remédier aux faiblesses mises en évidence par la mécanisation.
+
+- **Artefacts dérivés de la spécification mécanisée :** Un interpréteur et un vérificateur de type validés ont été dérivés de la spécification mécanisée. Des preuves formelles de la cohérence du système de types ont été générées.
+
+- **Vérification de la spécification :** La spécification a été validée à l'aide d'Isabelle, un assistant de preuve. Une approche de validation expérimentale a été adoptée en utilisant l'interpréteur validé avec le test de conformité officiel de WebAssembly et des expériences de fuzzing.
+
+- **Nécessité continue de tests :** Bien que la spécification mécanisée et la validation formelle renforcent la fiabilité, des tests demeurent indispensables. L'auteur a conduit des essais de fuzzing pour confirmer la conformité de l'implémentation avec le langage réel.
+
